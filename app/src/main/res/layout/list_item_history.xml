@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="horizontal"
+    android:id="@+id/lesson_id">
+
+    <TextView
+        android:id="@+id/item_history_subject"
+        android:layout_width="100dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@color/colorLight"
+        android:textColor="@color/colorDark"
+        android:padding="10dp" />
+
+
+    <TextView
+        android:id="@+id/item_history_teacher"
+        android:layout_width="100dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@color/colorLight"
+        android:textColor="@color/colorDark"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/item_history_schedule"
+        android:layout_width="70dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:background="@color/colorLight"
+        android:textColor="@color/colorDark"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/item_status"
+        android:layout_width="85dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:padding="10dp"
+        android:onClick="cancelLesson"/>
+
+</LinearLayout>

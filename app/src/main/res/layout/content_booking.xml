@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".BookingActivity"
+    tools:showIn="@layout/app_bar_booking">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/colorLight"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/courseName"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/courseName"
+        android:id="@+id/list_available_lessons">
+
+    </ListView>
+
+</RelativeLayout>

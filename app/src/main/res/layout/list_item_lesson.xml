@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="horizontal"
+    android:id="@+id/booking_index">
+
+    <TextView
+        android:id="@+id/item_day"
+        android:layout_width="100dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@color/colorLight"
+        android:textColor="@color/colorDark"
+        android:padding="10dp" />
+
+
+    <TextView
+        android:id="@+id/item_hour"
+        android:layout_width="100dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@color/colorLight"
+        android:textColor="@color/colorDark"
+        android:padding="10dp" />
+
+      <TextView
+          android:layout_width="50dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="0"
+          android:id="@+id/add"
+          android:textColor="@color/colorSuccess"
+          android:text="+"
+          android:textSize="32dp"
+          android:padding="5dp"
+          android:background="@color/colorLight"/>
+
+</LinearLayout>
